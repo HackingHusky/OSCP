@@ -20,3 +20,6 @@ for lin sys.stdin:
         print(binascii.b2a(data))
         except:
             pass
+
+
+#run this command python udp.client.py HOSTNAME 12345 < udp_outbound.txt

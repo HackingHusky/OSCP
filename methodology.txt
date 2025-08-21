@@ -1,0 +1,15 @@
+Mythodology:
+
+Recon:
+nmap -p- -Pn $target -v --min-rate 1000 --max-rtt-timeout 1000ms --max-retries 5 -oN nmap_ports.txt && sleep 5 && nmap -Pn $target -sV -sC -v -oN nmap_sVsC.txt
+
+Then work on each port
+
+
+port 21: 
+
+Easy wins
+Can I get anonymous access
+What version is the ftp? If it's vsftpd 2.3.4, there's a Metasploit for that, and if there is a metasploit model, then there is a repo on GitHub
+
+

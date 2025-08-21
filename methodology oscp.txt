@@ -37,7 +37,7 @@ ls (to check)
 curl http://$target:21/shell.aspx 
 check netcat 
 
-What version is the ftp? If it's vsftpd 2.3.4, there's a Metasploit for that, and if there is a Metasploit model, then there is a repo on GitHub.
+What version is the ftp? If it's vsftpd 2.3.4, there's a Metasploit for that, and if there is a Metasploit module, then there is a repo on GitHub.
 https://github.com/saisathvik1/OSCP-Cheatsheet
 
 

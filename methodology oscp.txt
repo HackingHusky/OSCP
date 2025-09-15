@@ -192,6 +192,11 @@ impacket-psexec Administrator@$target -hashes partone:parttwo
 or pass the hash evil-winrm
 
 
+Port 3128 "squid":
+https://github.com/HackingHusky/OSCP/blob/main/proxy-curl.sh
+run this script and ask, can I piggy back off this and proxy back to a different web port like 8080
+Then add it to foxy proxy to enumerate to the webservice. 
+
 Redis 6379:
 This was in the playgrounds and worth mentioning:
 Banner grab and look for 5.0.9 redis and get this repo

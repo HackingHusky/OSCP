@@ -45,6 +45,9 @@ Ssh 22:
 use for many ways, but also not an easy win at times, but a leverage to get access and also to PrivEsc
 Don't bother with Windows, but also review this link:
 https://github.com/saisathvik1/OSCP-Cheatsheet
+Additionally, basic SSH may not work sometimes. Run this with the RSA method:
+ssh -oHostKeyAlgorithms=+ssh-rsa -oPubkeyAcceptedAlgorithms=+ssh-rsa user@$target
+
 
 Telnet 23:
 banner grabbing and get access anonymously

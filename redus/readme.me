@@ -1,1 +1,18 @@
 for redus based things i complied first before the test
+
+
+for https://github.com/n0b0dyCN/RedisModules-ExecuteCommand
+
+i made the modules, then follow the command:
+kali@kali:~$ cd RedisModules-ExecuteCommand
+kali@kali:~/RedisModules-ExecuteCommand$ make
+make -C ./src
+make[1]: Entering directory '/home/kali/RedisModules-ExecuteCommand/src'
+make -C ../rmutil
+make[2]: Entering directory '/home/kali/RedisModules-ExecuteCommand/rmutil'
+...
+ld -o module.so module.o -shared -Bsymbolic  -L../rmutil -lrmutil -lc
+make[1]: Leaving directory '/home/kali/RedisModules-ExecuteCommand/src'
+cp ./src/module.so .
+
+but you can copy the model.so file for the attack, it should work
